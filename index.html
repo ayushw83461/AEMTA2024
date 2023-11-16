@@ -15,6 +15,13 @@
      /* Optional styling for the marquee container */
      .marquee-container {
       overflow: hidden;
+      margin-bottom: -5px; /* Adjust the margin to move the marquee down */
+    }
+
+    /* Style for the scrolling text */
+    .scrolling-text {
+      font-size: 10px; /* Adjust the font size as needed */
+      font-weight: bold;
     }
       .popup {
         display: none;
@@ -228,7 +235,7 @@
     </header><!-- /.Header -->
     <div class="marquee-container">
       <marquee behavior="scroll" direction="left" scrollamount="5">
-        <a href="publication.html">AEMTA-2024 full paper will be published as book proceedings in Springer.</a>
+        <span class="scrolling-text"><a href="publication.html"> AEMTA-2024 full paper will be published as book proceedings in Springer.</a></span>
       </marquee>
     </div>
     <!-- ============================
