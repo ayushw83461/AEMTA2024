@@ -12,6 +12,10 @@
           100% { background-color: rgb(6, 78, 19); }
         }*/
 		/* Style for the popup */
+     /* Optional styling for the marquee container */
+     .marquee-container {
+      overflow: hidden;
+    }
       .popup {
         display: none;
         position: fixed;
@@ -68,7 +72,8 @@
             <title>Advanced and Emerging
               Materials for Technological
               Applications</title>
-
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
   <header style="background-color: #283b6a; display: flex; font-family: sans-serif; text-transform: capitalize;
     font-weight: 700;
@@ -174,7 +179,12 @@
 			  <li class="nav__item has-dropdown">
                 <a href="auth.html"  class=" nav__item-link">Author Guidelines</a>
                 <!-- /.dropdown-menu -->
-              </li><!-- /.nav-item -->
+              </li>
+              <li class="nav__item has-dropdown">
+                <a href="publication.html" class="nav__item-link">Full Paper</a>
+                <!-- /.dropdown-menu -->
+            </li><!-- /.nav-item -->
+      
               <li class="nav__item has-dropdown">
                 <a href="registration.html"  class="nav__item-link">Registration</a>
 <!-- /.dropdown-menu -->
@@ -216,7 +226,11 @@
         </div><!-- /.container -->
       </nav><!-- /.navabr -->
     </header><!-- /.Header -->
-
+    <div class="marquee-container">
+      <marquee behavior="scroll" direction="left" scrollamount="5">
+        <a href="publication.html">AEMTA-2024 full paper will be published as book proceedings in Springer.</a>
+      </marquee>
+    </div>
     <!-- ============================
         Slider
     ============================== -->

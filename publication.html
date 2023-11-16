@@ -60,28 +60,6 @@
       button:hover {
         background-color: lightblue;
       }*/
-
-    table {
-        border-collapse: collapse;
-        width: 100%;
-        margin-bottom: 20px;
-        font-size: 16px;
-        text-align: left;
-    }
-
-    th, td {
-        border: 1px solid #ddd;
-        padding: 8px;
-    }
-
-    th {
-        background-color: #f2f2f2;
-        font-weight: bold;
-    }
-
-    tr:nth-child(even) {
-        background-color: #f2f2f2;
-    }
 </style>
 <script>
     function showPopup() {
@@ -128,7 +106,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="Advanced Materials and Raditaion Physics">
-
+   
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap">
@@ -191,7 +169,7 @@
                     <div class="collapse navbar-collapse" id="mainNavigation">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav__item has-dropdown">
-                                <a href="Index.html" class=" nav__item-link ">Home</a>
+                                <a href="index.html" class=" nav__item-link ">Home</a>
                                 <!-- /.dropdown-menu -->
                             </li>
                             <li class="nav__item has-dropdown">
@@ -199,18 +177,18 @@
                                 <!-- /.dropdown-menu -->
                             </li>
                             <li class="nav__item has-dropdown">
-                                <a href="auth.html" class=" nav__item-link">Author Guidelines</a>
+                                <a href="auth.html" class=" nav__item-link ">Author Guidelines</a>
                                 <!-- /.dropdown-menu -->
                             </li><!-- /.nav-item -->
                             <li class="nav__item has-dropdown">
-                                <a href="publication.html" class="nav__item-link">Full Paper</a>
+                                <a href="publication.html" class="nav__item-link active">Full Paper</a>
                                 <!-- /.dropdown-menu -->
                             </li>
                             <li class="nav__item has-dropdown">
-                                <a href="registration.html" class="nav__item-link active">Registration</a>
+                                <a href="registration.html" class="nav__item-link">Registration</a>
                                 <!-- /.dropdown-menu -->
                             </li><!-- /.nav-item -->
-                           <!-- /.nav-item -->
+                            <!-- /.nav-item -->
                             <li class="nav__item has-dropdown">
                                 <a href="#" data-toggle="dropdown" class=" nav__item-link">Speaker/Committee</a>
                                 <ul class="dropdown-menu">
@@ -247,6 +225,11 @@
                 </div><!-- /.container -->
             </nav><!-- /.navabr -->
         </header><!-- /.Header -->
+        <div class="marquee-container">
+            <marquee behavior="scroll" direction="left" scrollamount="5">
+              <a href="publication.html">AEMTA-2024 full paper will be published as book proceedings in Springer.</a>
+            </marquee>
+          </div>
         <!-- ========================
        page title
     =========================== -->
@@ -257,7 +240,8 @@
                         <nav>
                             <ol class="breadcrumb mb-0">
                                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Registration</li>
+               
+                                <li class="breadcrumb-item active" aria-current="page">Full Paper</li>
                             </ol>
                         </nav>
                     </div><!-- /.col-12 -->
@@ -283,58 +267,22 @@
                                     <a class="post__meta-comments" href="#"></a>
                                 </div><!-- /.blog-meta -->
                                 <h1 class="post__title mb-30">
-                                    <strong>Registration Fee for </strong>  <strong style="color:#FF0000">
-                                        Conference
-                                    </strong></p>
+                                    Publication
                                 </h1>
-                                <div>
-                                    <p>The authors presenting the papers and others who are
-                                        interested to participate in the conference must register
-                                        themselves before the last date of registration. Only the
-                                        registered persons will be given the certificate. The registration
-                                        fee for various categories is as follows:</p>
-                                </div>
                                 <div class="post__desc">
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th><strong>S. No.</strong></th>
-                                                <th><strong>Delegates</strong></th>
-                                                <th><strong>Paper Presentation Only</strong></th>
-                                               
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td><strong>1</strong></td>
-                                                <td>Research Scholars</td>
-                                                <td>Rs. 750 /-</td>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>2</strong></td>
-                                                <td>Faculty/ Scientist</td>
-                                                <td>Rs. 1500 /-</td>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>3</strong></td>
-                                                <td>Industry</td>
-                                                <td>Rs. 2500 /-</td>
-                                            </tr>
+                                    <p style="text-align:justify; color:#213360">Welcome to AEMTA-2024. AEMTA-2024 full paper will be published as book proceedings in Springer.</p><p style="text-align:justify; color:#213360">
 
-                                        </tbody>
-                                    </table>
-
+                                        Selected papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass these checks will be published.</p>  <p style="text-align:justify; color:#213360">
+                                            Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 5 pages) are not considered for publication. </p>
+                                   
                                 </div><!-- /.blog-desc -->
-                                
-                                <div><p style="color:#FF0000;">*Late registration fee of Rs. 500/- extra will be charged.</p></div>
-                              
                             </div>
                         </div><!-- /.post-item -->
                         <div class="d-flex flex-wrap justify-content-between border-top border-bottom pt-30 pb-30 mb-40">
                             <div class="blog-share d-flex flex-wrap align-items-center">
-                                <strong class="mr-20 color-heading">Register Now and Pay Fee:</strong>
+                                <strong class="mr-20 color-heading">Abstract Submission:</strong>
                                 <ul class="list-unstyled social-icons d-flex mb-0">
-                                    <li><a href="userlogged.html" style="width:500px">Click here to proceed</a></li>
+                                    <li><a href="userlogged.html" style="width:500px">Authors are requested to submit Abstract</a></li>
 
                                 </ul>
                             </div><!-- /.blog-tags -->
@@ -362,18 +310,7 @@
                                     </ul>
                                 </div><!-- /.widget-content -->
                             </div><!-- /.widget-categories -->
-                            <div class="widget widget-tags">
-                                <h5 class="widget__title" style="color:#fff!important">Latest Updates and Important Dates</h5>
-                                <div class="widget-content">
-                                    <ul class="list-unstyled mb-0">
-                                        <!--  <li><a href="#"></a></li>-->
-
-                                    </ul>
-                                    <marquee behavior="scroll" direction="up" scrollamount="5" style="color:#fff">
-                                        Last Date for Abstract Submission is 15/01/24
-                                    </marquee>
-                                </div><!-- /.widget-content -->
-                            </div><!-- /.widget-tags -->
+                           <!-- /.widget-tags -->
                         </aside><!-- /.sidebar -->
                     </div><!-- /.col-lg-4 -->
                 </div><!-- /.row -->
@@ -390,8 +327,8 @@
                             <div class="footer-widget-about">
                                 <img src="assets/images/head/amrp.png" height="100px" alt="logo" class="mb-30">
                                 <p class="color-gray" style="text-align:justify;">
-                                    The 6th National Conference on Advanced Materials and Radiation Physics is a platform that brings together experts, scientists and practitioners from across the world to discuss the latest advances in the field of material science and radiation physics.
-                                </p>
+                                    The National Conference on Advanced Materials for Technological Applications (AEMTA-2024) is a global platform uniting experts, scientists, and practitioners to explore cutting-edge advancements in Materials For Technological Applications. </p>
+               
 
                             </div><!-- /.footer-widget__content -->
                         </div><!-- /.col-xl-2 -->
@@ -445,7 +382,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-6 col-lg-6">
-                            <span class="fz-14" style="color:#fff;">&copy; 2023 Advanced Material and Radiation Physics, All Rights Reserved.</span>
+                            <span class="fz-14" style="color:#fff;">&copy; 2024 Advanced And Emerging Materials For Technological Applications<br> All Rights Reserved.</span>
                             <a class="fz-14 color-primary" href="http://sliet.ac.in/">www.sliet.ac.in</a>
                         </div><!-- /.col-lg-6 -->
                         <!-- /.col-lg-6 -->
